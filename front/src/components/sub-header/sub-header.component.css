@@ -1,0 +1,19 @@
+.subheader {
+  background: var(--darkBlue);
+  margin: 20px 0 0;
+  padding: 20px;
+}
+.title {
+  font-size: 1.3em;
+  margin: 0 0 6px;
+  color: #fff;
+}
+.row {
+  align-items: center;
+}
+.row .col:first-child {
+  flex: 10;
+}
+.right {
+  float: right;
+}

@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/normalize.css/normalize.css';
+:root {
+  --green: #95c776;
+  --darkGreen: #70b667;
+  --nude: #efa368;
+  --darkNude: #c28756;
+  --pink: #e15a8d;
+  --darkPink: #be4977;
+  --blue: #4dbce0;
+  --darkBlue: #3999c0;
+  --brown: #73634F;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  padding: 20px 0 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--brown);
+}
+
+p {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 0.875em;
+}
+
+.container {
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  flex: 1
+}
+
+.btn {
+  background: var(--darkPink);
+  padding: 10px 20px;
+  color: var(--nude);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  border: 0;
+  outline: none;
+}
+
+.btn:hover {
+  background: var(--blue);
+  color: var(--darkPink);
+}

@@ -1,0 +1,6 @@
+<ul class="migalha">
+  <li *ngFor="let lc of local; last as isLast">
+    <a href="#">{{lc}}</a>
+    <span *ngIf="!isLast">></span>
+  </li>
+</ul>

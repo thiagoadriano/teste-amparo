@@ -1,0 +1,27 @@
+.migalha {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.migalha li{
+  display: inline-block;
+  list-style: none;
+  color: #424242;
+}
+
+.migalha li a {
+  display: inline;
+  color: #4cdbff;
+  text-decoration: none;
+}
+
+.migalha li a:hover {
+  text-decoration: underline;
+}
+
+.migalha li span {
+  display: inline;
+  margin: 0 5px;
+  font-family: 'Ubuntu Condensed';
+}
